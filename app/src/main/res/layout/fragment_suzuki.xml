@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".suzuki">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gsx_r" />
+
+                <ImageView
+                    android:id="@+id/imageView40"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gzx" />
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bandit" />
+
+                <ImageView
+                    android:id="@+id/imageView38"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/intruder" />
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gixxer_sf" />
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/intruder" />
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gixxer" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gixxxer_sf_fi" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gixxer_dd" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gixxer_old" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/samurai" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gsx" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hayate" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hayate_s" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

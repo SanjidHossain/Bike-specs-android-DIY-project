@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yamaha">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xsr1555" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/r15v3indo" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/r15v3_monster" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/r15v3ind" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mt15" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vision" />
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fazer_fiv2" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/inkedfzs_fi_v3_li" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fzs_fi_dd" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saluto" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

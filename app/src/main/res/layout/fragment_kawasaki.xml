@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kawasaki">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView45"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ninja125" />
+
+                <ImageView
+                    android:id="@+id/imageView44"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/z125" />
+
+                <ImageView
+                    android:id="@+id/imageView43"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/d_tracker" />
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/klx" />
+
+                <ImageView
+                    android:id="@+id/imageView41"
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ksr_pro" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

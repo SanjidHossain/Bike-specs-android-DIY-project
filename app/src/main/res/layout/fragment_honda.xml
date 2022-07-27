@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".honda">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cb_exmotion" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new_cbr" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cbr_thai" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adv" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/repsol_abs" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cbr_indo" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/streetfire" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hornet_abs" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hornet_cbs" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xblade" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shine" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/livo" />
+        </LinearLayout>
+    </LinearLayout>
+        </ScrollView>
+
+
+</FrameLayout>

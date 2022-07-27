@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="101dp"
+            android:layout_height="61dp"
+            app:srcCompat="@drawable/ssad" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="88dp"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/yamaha_logo" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/_1_719211_suzuki_logo_suzuki_bike_logo_png" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/d2db429b8ac96ac9a73a714404d00913" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="honda"
+            android:text="Honda" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="yamaha"
+            android:text="Yamaha" />
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:onClick="suzuki"
+            android:text="Suzuki" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Kawasaki"
+          android:onClick="kawasaki"/>
+  </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bck" />
+
+</LinearLayout>
+
+
+
+
+
